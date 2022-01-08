@@ -42,6 +42,7 @@ class Anwser extends StatelessWidget {
         {'text':'used to play with guys', 'score':20},
       ]
     },
+     {'questionjAText': 'what would you like to achive by teelinng thsyt:'}
   ];
 
   final Function anwserTap;
@@ -53,7 +54,6 @@ class Anwser extends StatelessWidget {
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
     return Container(
-
       margin: EdgeInsets.only(top: 10),
       width: width/1.2,
         child: ElevatedButton(onPressed:()=> anwserTap(), style: style, child: text));
